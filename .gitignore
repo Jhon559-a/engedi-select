@@ -1,0 +1,13 @@
+# This repository intentionally contains a public snapshot only.
+.env
+.env.*
+data/
+private/
+backups/
+*.sqlite*
+*.db
+ADMIN_ACCESS.txt
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

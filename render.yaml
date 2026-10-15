@@ -1,0 +1,36 @@
+# Public catalog only. No local administration or private data belongs in this repository.
+services:
+  - type: web
+    name: engedi-select
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./public
+    autoDeployTrigger: off
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: Permissions-Policy
+        value: camera=(), microphone=(), geolocation=()
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'"
+      - path: /
+        name: Cache-Control
+        value: no-cache
+      - path: /index.html
+        name: Cache-Control
+        value: no-cache
+      - path: /catalog.json
+        name: Cache-Control
+        value: no-cache
+      - path: /site-config.js
+        name: Cache-Control
+        value: no-cache
