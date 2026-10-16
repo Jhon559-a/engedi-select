@@ -1,0 +1,177 @@
+{
+  "products": [
+    {
+      "name": "스튜디오 스틸 머그",
+      "category": "living",
+      "price": 26000,
+      "description": "휴식하는 책상 위에 잘 어울리는 스테인리스 머그 시안입니다.\n잔잔한 금속 질감과 간결한 손잡이로 취향을 더하는 물건을 제안합니다.\n\n식품용 적합성·보온 성능은 검증하지 않았습니다. 실제 판매 상품이 아닙니다.",
+      "material": "스테인리스 · 예시",
+      "dimensions": "350 ml / 높이 9 cm · 예시",
+      "colors": [
+        "실버"
+      ],
+      "stock": 12,
+      "status": "published",
+      "images": [
+        "/assets/product-mug.png"
+      ],
+      "featured": false,
+      "demo": true,
+      "id": 8,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    },
+    {
+      "name": "내추럴 코튼 지퍼 파우치",
+      "category": "wallets",
+      "price": 18000,
+      "description": "가방 속 작은 소지품을 한곳에 모으는 코튼 파우치 시안입니다.\n부드러운 아이보리 톤과 단정한 지퍼로 일상의 소지품을 담는 장면을 제안합니다.\n\n사진과 구성은 디자인 예시이며 실제 판매 상품이 아닙니다.",
+      "material": "면 캔버스 · 예시",
+      "dimensions": "가로 22 × 세로 16 cm · 예시",
+      "colors": [
+        "내추럴"
+      ],
+      "stock": 20,
+      "status": "published",
+      "images": [
+        "/assets/product-pouch.png"
+      ],
+      "featured": false,
+      "demo": true,
+      "id": 7,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    },
+    {
+      "name": "에브리데이 폴딩 우산",
+      "category": "travel",
+      "price": 22000,
+      "description": "흐린 날에도 차분하게 들 수 있는 접이식 우산 시안입니다.\n웜 그레이 색과 간결한 스트랩을 조합한 트래블 소품 콘셉트입니다.\n\n발수·내풍 성능과 치수는 실제로 검증하지 않았습니다.",
+      "material": "직물 / 금속 프레임 · 예시",
+      "dimensions": "접었을 때 길이 25 cm · 예시",
+      "colors": [
+        "웜 그레이"
+      ],
+      "stock": 15,
+      "status": "published",
+      "images": [
+        "/assets/product-umbrella.png"
+      ],
+      "featured": false,
+      "demo": true,
+      "id": 6,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    },
+    {
+      "name": "슬림 레더 카드지갑",
+      "category": "wallets",
+      "price": 35000,
+      "description": "필요한 카드만 가볍게 담는 브라운 카드지갑 시안입니다.\n장식을 덜어낸 형태와 은은한 표면감을 중심으로 구성했습니다.\n\n실제 가죽 종류와 수납 사양은 확인되지 않은 예시 상품입니다.",
+      "material": "가죽 소재 콘셉트 · 실제 사양 미확정",
+      "dimensions": "가로 10 × 세로 7 cm · 예시",
+      "colors": [
+        "브라운"
+      ],
+      "stock": 20,
+      "status": "published",
+      "images": [
+        "/assets/product-wallet.png"
+      ],
+      "featured": false,
+      "demo": true,
+      "id": 5,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    },
+    {
+      "name": "소프트 세라믹 트레이",
+      "category": "living",
+      "price": 24000,
+      "description": "작은 물건에 자리를 만들어 주는 세라믹 트레이 시안입니다.\n카드지갑과 열쇠를 두거나 테이블 위 소품을 정리하는 쓰임을 제안합니다.\n\n식품용 적합성은 검증하지 않았으며 사진과 규격은 시안입니다.",
+      "material": "무광 세라믹 · 예시",
+      "dimensions": "가로 24 × 세로 14 × 높이 2 cm · 예시",
+      "colors": [
+        "아이보리"
+      ],
+      "stock": 12,
+      "status": "published",
+      "images": [
+        "/assets/product-tray.png"
+      ],
+      "featured": true,
+      "demo": true,
+      "id": 4,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    },
+    {
+      "name": "오브제 포터블 램프",
+      "category": "desk",
+      "price": 69000,
+      "description": "빛을 켜지 않아도 하나의 오브제가 되는 실버 램프 시안입니다.\n작은 책상과 침대 옆 공간에 차분한 포인트를 더하는 장면을 담았습니다.\n\n전기 제품 사양과 인증은 확인되지 않았으며 실제 판매 상품이 아닙니다.",
+      "material": "브러시드 메탈 · 예시",
+      "dimensions": "지름 16 × 높이 24 cm · 예시",
+      "colors": [
+        "실버"
+      ],
+      "stock": 8,
+      "status": "published",
+      "images": [
+        "/assets/product-lamp.png"
+      ],
+      "featured": true,
+      "demo": true,
+      "id": 3,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    },
+    {
+      "name": "세이지 데일리 보틀",
+      "category": "travel",
+      "price": 29000,
+      "description": "손에 편안하게 들어오는 세이지 컬러 보틀 시안입니다.\n간결한 선과 무광 표면으로 가방 안에서도, 책상 위에서도 자연스럽게 어울리는 모습을 제안합니다.\n\n보온·보냉 성능은 검증하지 않았습니다. 실제 판매 상품이 아닙니다.",
+      "material": "스테인리스 / 무광 코팅 · 예시",
+      "dimensions": "500 ml / 높이 23 cm · 예시",
+      "colors": [
+        "세이지"
+      ],
+      "stock": 15,
+      "status": "published",
+      "images": [
+        "/assets/product-bottle.png"
+      ],
+      "featured": true,
+      "demo": true,
+      "id": 2,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    },
+    {
+      "name": "데일리 캔버스 토트백",
+      "category": "bags",
+      "price": 48000,
+      "description": "넉넉한 실루엣과 차분한 토프 색감의 데일리 토트백 시안입니다.\n가벼운 출근길부터 주말 외출까지, 일상의 장면을 생각하며 구성했습니다.\n\n사진·소재·규격·가격은 디자인 확인을 위한 예시입니다.",
+      "material": "캔버스 / 합성 가죽 손잡이 · 예시",
+      "dimensions": "가로 38 × 세로 30 × 폭 14 cm · 예시",
+      "colors": [
+        "토프"
+      ],
+      "stock": 10,
+      "status": "published",
+      "images": [
+        "/assets/product-tote.png"
+      ],
+      "featured": true,
+      "demo": true,
+      "id": 1,
+      "createdAt": 1792048116,
+      "updatedAt": 1792048116
+    }
+  ],
+  "hero": {
+    "image": "/assets/hero-select.png",
+    "title": "좋은 취향은,\n작은 것에서.",
+    "subtitle": "자주 쓰는 물건일수록, 조금 더 마음에 들도록.\n가방에서 데스크까지 일상의 좋은 물건을 만나보세요."
+  }
+}

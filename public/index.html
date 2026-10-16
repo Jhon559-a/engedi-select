@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef"><meta name="description" content="엔게디 셀렉트. 가방부터 데스크와 리빙까지, 매일의 취향을 위한 생활잡화 편집숍.">
+  <title>ENGEDI SELECT · 일상의 좋은 물건</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/store.css?v=1"><script src="/site-config.js" defer></script><script src="/store.js?v=1" defer></script><script src="/motion.js?v=1" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <div class="announcement"><span>ENGEDI SELECT</span><span>매일의 취향을 위한, 작은 발견.</span><a href="#journal">THE EVERYDAY EDIT ↗</a></div>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a href="#home" class="wordmark" aria-label="엔게디 셀렉트 홈">ENGEDI<span>SELECT</span></a>
+      <form class="header-search" id="header-search-form" role="search"><input id="header-search" type="search" placeholder="일상에 필요한 좋은 물건을 찾아보세요" aria-label="전체 상품 검색"><button aria-label="검색" type="submit"><svg><use href="#i-search"/></svg></button></form>
+      <div class="header-tools"><button data-action="wishes" aria-label="관심상품 열기"><svg><use href="#i-heart"/></svg><span>관심상품</span><small id="wish-count">0</small></button><button data-action="bag" aria-label="장바구니 열기"><svg><use href="#i-bag"/></svg><span>장바구니</span><small id="bag-count">0</small></button></div>
+    </div>
+    <nav class="nav-inner wrap" aria-label="상품 분류"><button data-category="all" aria-pressed="true">전체 상품</button><button data-category="bags" aria-pressed="false">가방</button><button data-category="wallets" aria-pressed="false">지갑·파우치</button><button data-category="desk" aria-pressed="false">데스크</button><button data-category="living" aria-pressed="false">홈·리빙</button><button data-category="travel" aria-pressed="false">트래블</button><a href="#journal" class="nav-journal">셀렉트 이야기 <span>↗</span></a></nav>
+  </header>
+  <div id="connection" class="connection wrap" role="alert" hidden></div>
+  <main id="main" tabindex="-1">
+    <div id="home-view">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-image"><img id="hero-photo" src="/assets/hero-select.png" width="1536" height="1024" alt="캔버스 가방, 세이지 보틀, 실버 램프와 트레이로 구성한 생활잡화 시안 화보" fetchpriority="high"><span class="image-source">CONCEPT IMAGE · 시안 화보</span></div>
+        <div class="hero-copy"><p class="eyebrow"><i></i> THE EVERYDAY EDIT / 01</p><h1 id="hero-title">좋은 취향은,<br>작은 것에서.</h1><p class="hero-english">GOOD THINGS, EVERY DAY.</p><p id="hero-subtitle">자주 쓰는 물건일수록, 조금 더 마음에 들도록.<br>가방에서 데스크까지 일상의 좋은 물건을 만나보세요.</p><a href="#collection" class="button primary">컬렉션 둘러보기 <span>↗</span></a></div>
+        <div class="hero-bottom"><span>CURATED OBJECTS FOR YOUR EVERYDAY</span><div><button id="motion-toggle" aria-pressed="false" aria-label="화면 움직임 멈추기">움직임 멈추기 Ⅱ</button><span>01 <i>/</i> 01</span></div></div>
+      </section>
+      <section class="categories wrap" aria-labelledby="category-title"><div class="section-intro"><div><p class="eyebrow">FIND YOUR EVERYDAY</p><h2 id="category-title">오늘은, 어떤 물건을 찾으세요?</h2></div><p>사진으로 가볍게 골라보세요.</p></div>
+        <nav class="category-pictures" aria-label="사진으로 상품 찾기">
+          <button data-category="all" aria-pressed="true"><span class="category-image"><img src="/assets/hero-select.png" alt="" loading="lazy"></span><strong>전체 보기</strong><small>ALL OBJECTS</small></button>
+          <button data-category="bags" aria-pressed="false"><span class="category-image"><img data-category-photo="bags" src="/assets/product-tote.png" alt="" loading="lazy"></span><strong>가방</strong><small>BAGS</small></button>
+          <button data-category="wallets" aria-pressed="false"><span class="category-image"><img data-category-photo="wallets" src="/assets/product-wallet.png" alt="" loading="lazy"></span><strong>지갑·파우치</strong><small>SMALL ESSENTIALS</small></button>
+          <button data-category="desk" aria-pressed="false"><span class="category-image"><img data-category-photo="desk" src="/assets/product-lamp.png" alt="" loading="lazy"></span><strong>데스크</strong><small>AT YOUR DESK</small></button>
+          <button data-category="living" aria-pressed="false"><span class="category-image"><img data-category-photo="living" src="/assets/product-tray.png" alt="" loading="lazy"></span><strong>홈·리빙</strong><small>FOR YOUR SPACE</small></button>
+          <button data-category="travel" aria-pressed="false"><span class="category-image"><img data-category-photo="travel" src="/assets/product-umbrella.png" alt="" loading="lazy"></span><strong>트래블</strong><small>ON THE GO</small></button>
+        </nav><p class="category-source">분류 이미지는 상품을 찾기 위한 시안 이미지입니다.</p>
+      </section>
+      <section class="collection wrap" id="collection" aria-labelledby="collection-title">
+        <div class="collection-heading"><div><p class="eyebrow">THE SELECT COLLECTION</p><h2 id="collection-title">일상을 채우는 좋은 선택.</h2></div><span class="edition">COLLECTION <b>01</b></span></div>
+        <div class="collection-tools"><div class="filter-tabs" role="group" aria-label="컬렉션 분류"><button data-category="all" aria-pressed="true">전체</button><button data-category="bags" aria-pressed="false">가방</button><button data-category="wallets" aria-pressed="false">지갑·파우치</button><button data-category="desk" aria-pressed="false">데스크</button><button data-category="living" aria-pressed="false">홈·리빙</button><button data-category="travel" aria-pressed="false">트래블</button></div><div class="filter-selects"><select id="price-filter" aria-label="가격 범위"><option value="all">전체 가격</option><option value="30000">3만 원 이하</option><option value="50000">5만 원 이하</option><option value="100000">10만 원 이하</option></select><select id="sort" aria-label="상품 정렬"><option value="curated">추천순</option><option value="new">최근 등록순</option><option value="low">낮은 가격순</option><option value="high">높은 가격순</option></select></div></div>
+        <div class="collection-search"><label class="small-search"><svg><use href="#i-search"/></svg><input id="search" type="search" placeholder="상품명이나 소재로 검색" aria-label="컬렉션 검색"></label><button id="reset-filters" class="text-button">필터 초기화 ↺</button></div>
+        <div class="catalog-meta"><span id="result-count" aria-live="polite">컬렉션을 불러오고 있어요.</span><button id="demo-toggle" class="text-button" hidden>예시 컬렉션 보기 ↗</button></div>
+        <div id="demo-note" class="demo-note" hidden><span>PREVIEW COLLECTION</span><p>아래 사진·가격·규격은 화면을 살펴보기 위한 <strong>예시</strong>입니다. 실제 판매 상품은 준비 중입니다.</p></div>
+        <div id="products" class="products" aria-live="polite"><div class="loading">좋은 물건들을 불러오고 있어요.</div></div>
+      </section>
+      <section id="journal" class="journal wrap" aria-labelledby="journal-title"><div class="journal-photo"><img src="/assets/hero-select.png" alt="뉴트럴 색상의 가방과 생활 소품을 함께 놓은 시안 화보" loading="lazy" width="1536" height="1024"><span>THE SELECT JOURNAL / 001</span></div><div class="journal-copy"><p class="eyebrow">LESS, BUT BETTER.</p><h2 id="journal-title">크지 않아도,<br>분명한 취향.</h2><p>손에 익는 가방 하나. 자리를 정돈하는 트레이.<br>매일 쓰는 물건이 좋아지면, 일상도 조금 달라집니다.</p><p>엔게디 셀렉트는 오래 바라보아도 편안한 색과<br>쓰임이 분명한 물건을 차분하게 소개합니다.</p><a href="#collection" class="text-button">나의 물건 찾아보기 <span>↗</span></a><small>사진은 편집숍의 방향을 보여주는 시안 화보입니다.</small></div></section>
+      <section class="select-values wrap" aria-label="쇼핑 안내"><div><span>01 / DISCOVER</span><h3>사진으로 먼저 살펴보세요.</h3><p>상품 사진과 소재·규격을 한곳에서 비교하세요.</p></div><div><span>02 / KEEP</span><h3>마음에 든 물건은 오래.</h3><p>관심상품과 장바구니는 이 브라우저에 보관해요.</p></div><div><span>03 / ASK</span><h3>필요한 만큼, 물어보세요.</h3><p>실제 등록 상품은 수량을 골라 구매 문의할 수 있어요.</p></div></section>
+    </div>
+    <section id="detail-view" class="wrap detail-view" hidden aria-label="상품 상세"></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-main"><div><a href="#home" class="wordmark">ENGEDI<span>SELECT</span></a><p>일상의 좋은 물건, 나다운 작은 선택.</p></div><div class="footer-links"><a href="#collection">상품 둘러보기</a><a href="#journal">셀렉트 이야기</a><button data-action="storage">이용 안내</button><a id="admin-link" href="/admin.html">관리자</a></div></div><div class="wrap footer-bottom"><span>© ENGEDI SELECT</span><p>상품 소개 · 구매 문의 단계입니다. 온라인 결제는 아직 제공하지 않습니다.</p><button data-action="top">맨 위로 ↑</button></div></footer>
+  <nav class="mobile-nav" aria-label="모바일 메뉴"><a href="#home"><svg><use href="#i-home"/></svg><span>홈</span></a><a href="#collection"><svg><use href="#i-grid"/></svg><span>상품</span></a><button data-action="wishes"><svg><use href="#i-heart"/></svg><span>관심</span></button><button data-action="bag"><svg><use href="#i-bag"/></svg><span>장바구니 <b id="mobile-bag-count">0</b></span></button></nav>
+  <dialog id="drawer" class="drawer" aria-labelledby="drawer-title"><div class="drawer-head"><div><p class="eyebrow" id="drawer-eyebrow">YOUR SELECTION</p><h2 id="drawer-title">장바구니</h2></div><button class="icon-button" data-action="close-drawer" aria-label="닫기"><svg><use href="#i-close"/></svg></button></div><div id="drawer-content" class="drawer-content"></div></dialog>
+  <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"><button class="icon-button info-close" data-action="close-info" aria-label="안내 닫기"><svg><use href="#i-close"/></svg></button><p class="eyebrow">ENGEDI SELECT</p><h2 id="info-title">편하게 살펴보세요.</h2><div id="info-content"></div><button class="button primary" data-action="close-info">확인했어요</button></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol><symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20 3.5 12A5 5 0 0 1 12 5a5 5 0 0 1 8.5 7Z"/></symbol><symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l1 13H4L5 8ZM8 9V6a4 4 0 0 1 8 0v3"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8M5 10v11h5v-7h4v7h5V10"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><path d="M3 3h7v7H3ZM14 3h7v7h-7ZM3 14h7v7H3ZM14 14h7v7h-7Z"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol></defs></svg>
+</body></html>
